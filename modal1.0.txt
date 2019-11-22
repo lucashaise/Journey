@@ -1,0 +1,154 @@
+moda1.0
+
+
+
+<!--
+   
+<div class="row">
+    Trigger/Open The Modal 
+    <button id="myBtn" class='spacepeople button5 col-md-12 col-md-push-8' onclick="function1()" style="float:left!important"> spacepeople <br> <span style="width:2vw"> <i class="fas fa-user-astronaut"></i> 6 </span> </button>
+
+     The Modal 
+    <div id="myModal" class="modal">
+
+       Modal content 
+      <div class="modal-content">
+        <span class="close" onclick="function2()" >&times;</span>
+<div class="container>"
+              <h2 style="text-align: center; font-size: xx-large!important;" class="col"> People Currently in Orbit</h2><br><br>
+    <div class="row" >
+              <img class="col-md-4" src="A01.png" alt:"Picture of the Astronaut Christina Koc class='col-md-4'h"  class="A00">
+              <h3 class='col-md-8'>Christina Koch</h3>
+              <p class='col-md-10' style="font-size: 1.5vw!important; text-align:left;">Flight Engineer<br>
+              DAYS IN SPACE:234</p>
+    </div>
+    <div class="row" >
+              <img class="col-md-4" src="A02.png" alt:"Picture of the Astronaut Alexander Skvortsov"  class="A00">
+              <h3 class='col-md-8'>Alexander Skvortsov</h3>
+              <p class='col-md-10' style="font-size: 1.5vw!important; text-align:left;" >Flight Engineer<br>
+              DAYS IN SPACE:106 </p>
+    </div>
+    <div class="row" >          
+              <img class="col-md-4" src="A03.png" alt:"Picture of the Astronaut Andrew Morgan"  class="A00">
+              <h3 class='col-md-8'>Andrew Morgan</h3>
+              <p class='col-md-10' style="font-size: 1.5vw!important; text-align:left;" >Flight Engineer<br>
+              DAYS IN SPACE:106</p>
+    </div>
+    <div class="row" >
+              <img class="col-md-4" src="A04.png" alt:"Picture of the Astronaut Luca Parmitano"  class="A00">
+              <h3 class='col-md-8'>Luca Parmitano</h3>
+              <p class='col-md-10' style="font-size: 1.5vw!important; text-align:left;" >Flight Engineer<br>
+              DAYS IN SPACE:106</p>
+
+    </div>
+    <div class="row" >
+              <img class="col-md-4" src="A05.png" alt:'Picture of the Astronaut Oleg Skripochka' class="A00">
+              <h3 class='col-md-8'>Oleg Skripochka</h3>
+              <p class='col-md-10' style="font-size: 1.5vw!important; text-align:left;" >Flight Engineer<br>
+              DAYS IN SPACE:39</p>
+
+    </div>
+    <div class="row" >
+              <img class="col-md-4" src="A06.png" alt:"Picture of the Astronaut Jessica Meir"  class="A00">
+              <h3 class='col-md-8'>Jessica Meir</h3>
+              <p class='col-md-10' style="font-size: 1.5vw!important; text-align:left;" >Flight Engineer<br>
+              DAYS IN SPACE:39</p>
+    </div>     
+</div>         
+            </div>
+
+          </div>
+-->
+
+    <!--
+    <div>	
+      <h4 > news </h4>
+      <h4 > discoveries </h4>
+    </div>
+    -->]
+
+
+
+
+    
+/* The Modal (background) 
+.modal 
+{
+  display: none; /* Hidden by default 
+  position: fixed; /* Stay in place 
+  z-index: 1; /* Sit on top 
+  padding-top: 100px; /* Location of the box 
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width 
+  height: 100%; /* Full height 
+  overflow: auto; /* Enable scroll if needed
+  background-color: rgb(0,0,0); /* Fallback color 
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity 
+}
+*/
+/* Modal Content 
+.modal-content 
+{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 1vh;
+  border: 1px solid #888;
+  width: 40%;
+  float: none;
+}
+*/
+
+/* The Close Button
+.close 
+{
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus 
+{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+ */
+
+
+
+
+ 
+// space
+// Get the modal
+//var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+//var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+///var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+// btn.onclick = function()
+//function function1() {
+  //document.getElementById("myModal").style=("display:block");
+//}
+
+// When the user clicks on <span> (x), close the modal
+//span.onclick = 
+//function function2() {
+ // document.getElementById("myModal").style=("display:none");
+  //modal.style.display = "none";
+  
+//}
+
+// When the user clicks anywhere outside of the modal, close it
+// window.onclick = 
+//function function3(event) {
+ // if (event.target == modal) {
+//    modal.style.display = "none";
+//  }
+//}
