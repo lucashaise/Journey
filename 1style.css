@@ -1,0 +1,903 @@
+/* todos */
+
+body
+{
+  font-family: 'Nanum Gothic', sans-serif;
+  margin:0%;
+  height: 100%; /* Used in this example to enable scrolling */
+  
+}
+
+
+
+/*parte importante do corpo*/
+.main {
+  padding: 16px;
+  margin-top: 30px;
+   /* Used in this example to enable scrolling */
+  
+}
+
+/* text */
+
+article{
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.pp{
+  font-weight: 400!important;
+  font-size: 2vw!important;
+  
+  
+}
+
+h1{
+  font-size: 3vw;
+  margin-bottom: 4vw;
+}
+
+h2{
+  font-size: 2vw;
+  margin-bottom: 5%;
+}
+
+@media screen and (min-width: 601px) {
+  .hhh {
+    font-size: 2.5vw!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hhh {
+    font-size: 40px!important ;
+  }
+}
+
+article{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: 400!important;
+  font-size: 2vw!important;
+}
+
+p{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: 400!important;
+  font-size: 2vw!important;
+}
+
+.hypersuper
+{
+  font-size: 3vw!important;  
+}
+
+@media screen and (min-width: 601px) {
+  .hh {
+    font-size: 3vw!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hh {
+    font-size: 50px!important ;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .pp {
+    font-size: 2vw!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pp {
+    font-size: 30px!important ;
+  }
+}
+
+.whatuwant2
+{
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 5vh;
+}
+
+a#skip, #skip:hover, a#skip:visited{
+  position: absolute;
+  top:-500px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+a#skip:active, a#skip:focus
+{
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+/* background 1.0 */
+
+.backpack
+{
+  background-image: url(heic1608a.jpg);
+}
+
+
+/*barra*/
+
+
+.SmallLogo
+{
+	width: 70px;
+	float: left!important;
+  margin: 5px;
+
+}
+
+
+.topnav 
+{
+  overflow: hidden;
+  background-color: #131313;
+}
+
+/*home, news, contact, about*/
+.topnav a 
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 1.5vh;
+  margin-right: 3vh;
+}
+
+
+/*home*/
+.active 
+{
+  background-color: #131313;
+  color: white;
+  
+}
+
+
+/*menu icon?*/
+.topnav .icon {
+  display: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/*dropdown*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdownG {
+  
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 20px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-top: 1vh;
+}
+
+/*caixinhas*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px; /*largura da cixinha*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* nome nas caixinhas*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*mouse over*/
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/*caixinha hover*/
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*caixinha hover*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*responsivo*/
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    margin-top:3vh!important;
+    margin-right:3vh!important;  
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-top:8vh;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/* index */
+
+.lua
+{
+  width: 15%!important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:4vh;
+}
+
+
+.SmallLogo
+{
+	width: 70px;
+	float: right;
+	margin: 5px;
+  
+  
+  /*display: none;*/
+  
+}
+
+
+
+.lua1
+{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+
+.whatuwant
+{
+  text-align: center!important;
+  margin-top: 5vw;
+  margin-bottom: 50vh;
+ 
+}
+
+
+
+.icon
+{
+  width: 20px;
+  color: #ddd
+}
+
+.rowlercosterbitch
+{
+  margin-bottom: 5%!important;
+  margin-left: 3%!important;
+}
+
+@media (max-width: 800px){
+  .rowlercosterbitch  {
+    margin-right: 40%!important;
+    margin-left: 40%!important;
+    display: block!important;
+    
+
+  }
+}
+
+/*icons landing*/
+.iconsicons
+{
+  font-size: 20px;
+  text-decoration: none;
+ 
+  text-align: center; 
+  margin-top: 5vh;
+   
+  border: none;
+  outline: none;
+ 
+  color: #131313;
+}
+
+/*icons landing*/
+.iconsicons2
+{
+  text-align: center;
+  padding: 1%!important;
+  margin-right:3.3%!important;
+}
+
+
+@media (max-width: 800px){
+  .iconsicons  {
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    padding-bottom: 10%!important;
+    text-align: center!important;
+    margin-left:5%!important;
+  }
+}
+
+.iconsicons:focus {
+  
+  color: #1f5daf;
+}
+.whatuwant
+{
+  text-align: center;
+  margin: 5vw;
+  font-size: 5vh;
+}
+
+.icon
+{
+  width: 20px;
+  color: #ddd
+}
+
+
+.bitchicon
+{
+  max-width: 500px;
+  margin: auto;
+}
+
+
+.hardestbuttontobutton
+{
+  border: none;
+  outline: none;
+  background: #0571ff;
+}
+
+
+
+/*space folk*/
+
+
+.spacepeople
+{
+  
+  margin-top: 1vh; 
+  
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: white;
+  padding: 8px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 15px;
+  
+}
+
+
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #00000060;
+  
+}
+
+.button5:hover {
+  background-color: #131313;
+  color: white;
+}
+
+
+@media (max-width: 800px){
+  .button5{max-width: 25%;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    display: block;  
+  }
+}
+
+
+/* astronauts */
+.A00{
+  border-radius: 8%!important;
+  max-width: 15vw!important;
+  max-height: 17.5vh!important;
+  margin-bottom: 5vh!important;
+  margin-left: 7vw!important;
+  margin-top: 2vw!important;
+
+}
+
+.t00{
+  margin-bottom: 5vh!important;
+  font-size: 2vw;
+  margin-left: 7vw;
+}
+
+@media (max-width: 800px){
+  .A00 {
+    flex:50%;
+    max-width: 50%;
+    margin-bottom: 2%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    display: block!important;
+    border-radius: 8%!important;
+    max-width: 20vw!important;
+    max-height: 22.5vh!important;
+  }
+}
+
+@media (max-width: 800px){
+  .t00  {
+    flex:100%;
+    max-width:100%;
+    font-size: 5vw!important;
+    margin-bottom: 8%;
+    text-align: center;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    display: block!important;
+    
+  }
+}
+/*---------------------------------------------------------------------------------------------------*/
+
+
+/*universe*/
+.liil
+{
+  text-decoration: none;
+  color: #131313;
+}
+
+
+.hardestbuttontobuttontobutton
+{
+  width: 100%;
+  margin-top: 8vh;
+}
+
+.hyperuni
+{
+  float: none;
+  font-size: 20px;
+  text-decoration: none;
+  
+  padding-right: 16%;
+  padding-left: 16%;
+  text-align: center; 
+
+  border: none;
+  outline: none;
+}
+
+
+.ci 
+{
+  width:50%!important; 
+  display: flex;
+  /*justify-content: center;*/
+  margin: 5% auto 5% auto;
+  border: 3px;
+  border-radius: 8px;
+  margin-top:4vh;
+  margin-bottom:4vh;
+  
+}
+
+
+.hardestbuttontobuttontobutton
+{
+  width: 100%;
+  margin-top: 8vh;
+}
+
+.hyperuni
+{
+  float: none;
+  font-size: 20px;
+  text-decoration: none;
+  
+  padding-right: 16%;
+  padding-left: 16%;
+  text-align: center; 
+
+  border: none;
+  outline: none;
+}
+
+.mainuni
+{
+  margin-top:5%;
+  margin-bottom:5%;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+@media screen and (max-width: 800px){
+ .mainuni {
+  margin-left:5%;
+  margin-right:5%;
+ }
+}
+/* ------------------------------------------------------------------------------------------------ */
+
+/* solar system */
+.planetinhas
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  
+  
+}
+
+
+.blackcrackbag
+{
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+/* cada planeta ou sla */
+.planetinhA
+{
+  float: left;
+  margin-left:3%;
+  width: 45%!important;
+  height:45%!important;
+}   
+
+.textinhu
+{
+  float: right!important;
+  background-color: rgb(27, 47, 156);
+  width: 45%;
+  height:70vh;
+  overflow: auto;
+  padding: 3%;
+  margin-left: 5%;
+ /* margin-right:5%;*/
+  border-radius: 8px;
+  
+}
+
+@media (max-width: 800px){
+  .planetinhA {
+    flex:50%;
+    max-width:100%;
+    margin-right: 6%;
+  }
+}
+
+@media (max-width: 800px){
+  .textinhu  {
+    flex:50%;
+    max-width:100%;
+    margin-left: 2%;
+    
+  }
+}
+
+@media screen and (min-width: 601px) {
+ .textinhu{
+    font-size: 2vw!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .textinhu{
+    font-size: 30px!important ;
+  }
+}
+
+
+@media (max-width: 800px){
+  .whatuwant2  {
+    flex:50%;
+    max-width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/* voltar */
+.backarrow
+{
+  float: left;
+  color: #2FBFFF;
+  margin: 10px;
+  font-size: 25px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* corpos */
+
+/* constelaçoes */
+.constelacoesoes
+{
+  max-width: 30vw!important;
+  max-height: 30vh!important;
+  background: black!important;
+  background-blend-mode: color;
+  margin: 5vw 0vw 6vw 5vw!important;
+}
+/* top right bottom left */
+
+.imagecenter{
+  margin-left: auto!important;
+  margin-right: auto!important;
+  display: block!important;
+  display: flex;
+}
+
+@media (min-width: 800px){
+  .imagecenter{
+    flex-direction: column;
+
+  }
+}
+
+
+.bodyimage{
+  padding: 0 5% 0 5%;
+}
+
+@media (max-width: 800px)
+{
+  .bodyimage{
+    padding: 0 5% 0 5%;
+
+  }
+}
+
+/* cada planeta ou sla */
+.planetinha
+{
+  float: left!important;
+  margin-left:3%;
+  margin-top: 40%!important;
+  width: 100%!important;
+}
+
+.textinho
+{
+  float: right!important;
+
+ /* margin-right:5%;*/
+  border-radius: 8px;
+  
+}
+
+@media (max-width: 800px){
+  .planetinha {
+    flex:50%;
+    max-width:100%;
+    margin-right: 6%;
+    margin-top: 5%!important;
+  }
+}
+
+@media (max-width: 800px){
+  .textinho  {
+    flex:50%;
+    max-width:100%;
+    margin-left: 2%;
+    
+  }
+}
+
+@media screen and (min-width: 601px) {
+ .textinho{
+    font-size: 2vw!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .textinho{
+    font-size: 30px!important ;
+  }
+}
+
+
+.linkssuper
+{
+  padding-right: 16%;
+  padding-left: 16%;
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+
+
+
+@media screen and (min-width: 601px) {
+  .linkssuper {
+    padding-left: 5%!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .linkssuper {
+    padding-left: 5%!important;
+  }
+}
+
+/*    footer    */
+
+.footer {
+   
+  left: 0;
+  bottom: 0!important;
+  
+  background-color: rgb(218, 216, 216)!important;
+  
+  border-top: 2px solid #00000060;
+  margin-top: 10%!important;
+  
+}
+/* top right bottom left */
+
+.qwert {
+ box-sizing: border-box;
+}
+
+.fontain{
+  font-size: 2vw!important;
+  text-decoration: none;
+  color: #131313;
+  float: left!important;
+  padding-top: 0.5%;
+}
+
+.lgf{
+  color: black!important;
+  width: 30%;
+}
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #151616;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #d6dddb !important;
+    
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #181818;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#181818;
+}
+
+
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#161616;
+}
+#footer ul.social li a:hover{
+	color:#2FBFFF;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}

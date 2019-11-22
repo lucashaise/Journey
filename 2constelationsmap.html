@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>journey</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="1style.css" rel="stylesheet" type="text/css" />
+    <link href="2map.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/6efa840bb2.js" crossorigin="anonymous"></script>       
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+
+</head>
+
+<body >
+<script src="2map.js"></script>
+
+
+   <!-- barra superios -->
+   <nav class="topnav" id="myTopnav">
+      <a id='skip' href="#top123" tabindex="1"> Skip to content </a>
+    <a href="index.html" class="active" style='margin-top:0' tabindex="1">
+    <img src= 'logos_journey.png' title='logo jouney - home' alt='logo jouney - home' class='SmallLogo' style="float:left!important"> </a>
+    <a href="2solar_system.html" tabindex="2">solar system </a>
+    <a href="2universe.html" tabindex="3">universe</a>
+    <a href="2constelations.html" style='color: #2FBFFF'tabindex="4">celestial bodies</a>
+    <a href="2Spaceship.html"  tabindex="5">Spaceship</a>
+    <a href="2satellite.html" tabindex="6">satellite</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()" tabindex="1.5">&#9776;</a>
+</nav>
+
+
+
+    
+
+<a href='2constelationlations.html' tabindex="7"> <i class="fas fa-chevron-circle-left backarrow"></i> <a>
+
+<!-- title -->
+
+<div class="whatuwant">
+  
+  <h1 style="color:black; text-align:center" tabindex="8" id="top123"> Map </h1>
+
+</div>
+
+
+
+<main style='padding:2%'>
+
+<div class="container">
+  <div class="row">
+    <div class="img-magnifier-container">
+        <img controls id="myimage" src="constellations_map_equ110112.png" type='img/png' alt='mapa de constelações' style="width: 100%; height: auto; object-fit: cover; display:block;" tabindex="9">
+    </div>
+  </div>
+</div>
+
+ 
+
+
+
+<script>
+/* Initiate Magnify Function
+with the id of the image, and the strength of the magnifier glass:*/
+magnify("myimage", 2);
+</script>
+
+
