@@ -695,15 +695,10 @@ a#skip:active, a#skip:focus
   margin-left: auto!important;
   margin-right: auto!important;
   display: block!important;
-  display: flex;
+  
 }
 
-@media (min-width: 800px){
-  .imagecenter{
-    flex-direction: column;
 
-  }
-}
 
 
 .bodyimage{
